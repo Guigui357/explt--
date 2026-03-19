@@ -45,5 +45,5 @@ jobs:
       uses: actions/upload-artifact@v4
       with:
         name: iOS-App-Simulator
-        path: build/Release-iphonesimulator/explt.app
+        path: /Users/runner/Library/Developer/Xcode/DerivedData/explt-bhjfmdkibphwjtepwkozucqcdwmt/Build/Products/Release-iphonesimulator/explt.app
         retention-days: 30
